@@ -1,6 +1,8 @@
 import { MdOutlineShoppingCart } from 'react-icons/md';
+import { useProps } from '../../utils/CartContext';
 
 const NavBar = () => {
+  const { carts } = useProps();
   return (
     <div className='navbar'>
       <div className='navbar-start'>
@@ -34,9 +36,13 @@ const NavBar = () => {
         </ul>
       </div>
       <div className='navbar-end gap-5'>
-        <span>
+        <div className='relative inline-flex items-center'>
           <MdOutlineShoppingCart className='text-3xl' />
-        </span>
+          <span className='absolute -top-2 -right-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-red-500 px-1 text-xs font-bold text-white'>
+            {carts.length}
+          </span>
+        </div>
+
         <button className='btn'>
           <a className=' text-lg font-semibold'>Login</a>
         </button>

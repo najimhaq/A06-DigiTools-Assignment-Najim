@@ -9,6 +9,7 @@ import Models from './pages/Models/Models';
 import { CartProvider, useProps } from './utils/CartContext';
 import CartModel from './pages/cart/CartModel';
 import DigitalToolsTitle from './pages/DigitalToolsTitle';
+import CartDrawer from './pages/cart/CartDrawer';
 
 const getModels = async () => {
   const res = await fetch('/models.json');
@@ -23,12 +24,15 @@ const AppContent = () => {
       <NavBar />
       <Banner />
       <DigitalToolsTitle />
-
       <div className='tabs tabs-box justify-center bg-transparent mb-6'>
         <input
           type='radio'
           name='my_tabs_1'
-          className={`tab rounded-full w-40 mr-5 ${activeTab === 'model' ? 'bg-linear-to-r from-blue-500 to-purple-600 text-white' : 'bg-gray-200 text-gray-700'}`}
+          className={`tab rounded-full w-40 mr-5 transition-all duration-300 ease-in-out ${
+            activeTab === 'model'
+              ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white'
+              : 'bg-gray-200 text-gray-700'
+          }`}
           aria-label='Models'
           onClick={() => setActiveTab('model')}
           defaultChecked
@@ -36,13 +40,18 @@ const AppContent = () => {
         <input
           type='radio'
           name='my_tabs_1'
-          className={`tab rounded-full w-40 ${activeTab === 'cart' ? 'bg-linear-to-r from-blue-500 to-purple-600 text-white' : 'bg-gray-200 text-gray-700'}`}
+          className={`tab rounded-full w-40 transition-all duration-300 ease-in-out ${
+            activeTab === 'cart'
+              ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white'
+              : 'bg-gray-200 text-gray-700 '
+          }`}
           aria-label={`Cart(${carts.length})`}
           onClick={() => setActiveTab('cart')}
         />
       </div>
+
       {activeTab === 'model' && <Models modelPromise={modelPromise} />}
-      {activeTab === 'cart' && <CartModel />}
+      {activeTab === 'cart' && <CartDrawer />}
       <Footer />
     </>
   );

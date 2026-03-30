@@ -43,11 +43,12 @@ const Models = ({ modelPromise }) => {
         </div>
 
         {/* models maping */}
-        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-5'>
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-30'>
           {filteredModel.map((model, index) => (
             <ModelCard key={model.id || `model-${index}`} className="h-full" model={model} />
           ))}
         </div>
+        
       </div>
     </>
   );
