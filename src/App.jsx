@@ -9,6 +9,7 @@ import Models from './pages/Models/Models';
 import { CartProvider, useProps } from './utils/CartContext';
 import DigitalToolsTitle from './pages/DigitalToolsTitle';
 import CartDrawer from './pages/cart/CartDrawer';
+import Workflow from './pages/workflow/Workflow';
 
 const getModels = async () => {
   const res = await fetch('/models.json');
@@ -51,6 +52,7 @@ const AppContent = () => {
 
       {activeTab === 'model' && <Models modelPromise={modelPromise} />}
       {activeTab === 'cart' && <CartDrawer />}
+      <Workflow />
       <Footer />
     </>
   );
