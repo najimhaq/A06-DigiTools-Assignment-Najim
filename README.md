@@ -77,3 +77,10 @@ npm install
 
 # Start the development server
 npm start
+🤝 Contributing
+Contributions are always welcome!
+If you have suggestions, feature requests, or bug fixes, please open an issue or submit a pull request.
+
+📜 License
+This project is licensed under the MIT License.
+You’re free to use and modify it for both personal and commercial projects.

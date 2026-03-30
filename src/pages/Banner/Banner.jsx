@@ -31,12 +31,12 @@ const Banner = () => {
                 Explore Products
               </button>
               <button
-                class='relative inline-flex items-center justify-center p-[2px] 
+                className='relative inline-flex items-center justify-center p-[2px] 
                overflow-hidden text-sm font-medium rounded-full 
                bg-gradient-to-r from-blue-500 to-purple-600 
                focus:ring-2 focus:ring-transparent'
               >
-                <span class='px-4 py-2.5 rounded-full bg-white text-blue-600 font-semibold'>
+                <span className='px-4 py-2.5 rounded-full bg-white text-blue-600 font-semibold'>
                   <div className='flex justify-center items-center'>
                     <FiPlay className='font-black' />
                     <span>Watch Demo</span>
