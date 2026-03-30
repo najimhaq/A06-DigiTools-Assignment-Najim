@@ -7,7 +7,6 @@ import Footer from './pages/Footer/Footer';
 import { ToastContainer } from 'react-toastify';
 import Models from './pages/Models/Models';
 import { CartProvider, useProps } from './utils/CartContext';
-import CartModel from './pages/cart/CartModel';
 import DigitalToolsTitle from './pages/DigitalToolsTitle';
 import CartDrawer from './pages/cart/CartDrawer';
 
