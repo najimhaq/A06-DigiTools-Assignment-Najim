@@ -1,35 +1,31 @@
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
+import { RiInstagramFill } from 'react-icons/ri';
 
 const Footer = () => {
   return (
-    <footer className='bg-zinc-950 border-t border-red-900/50 pt-16 pb-10'>
-      <div className='max-w-7xl mx-auto px-6'>
+    <footer className='bg-[#101727] border-t border-purple-900/50 pt-16 pb-10'>
+      <div className='max-w-7xl mx-auto px-10'>
         <div className='grid grid-cols-1 md:grid-cols-12 gap-12'>
           {/* Logo & Description */}
-          <div className='md:col-span-5'>
+          <div className='md:col-span-3'>
             <div className='flex items-center gap-3 mb-6'>
-              
-              <h2 className='text-3xl font-bold tracking-tighter text-white'>
-                AI Hub
+              <h2 className='text-4xl font-black tracking-tighter text-white'>
+                DigiTools
               </h2>
             </div>
 
-            <p className='text-zinc-400 text-lg max-w-md'>
-              One subscription. Access to all frontier AI models in a single
-              powerful platform.
+            <p className='text-zinc-400 text-sm max-w-md'>
+              Premium digital tools for creators, professionals, and businesses.
             </p>
-
-            {/* <div className="mt-8 flex gap-6 text-2xl text-zinc-500">
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaTwitter /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaGithub /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaLinkedin /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaDiscord /></a>
-                            <a href="#" className="hover:text-red-500 transition-colors"><FaYoutube /></a>
-                        </div> */}
+            <p className='text-zinc-400 text-sm max-w-md'>
+              Work smarter with our suite of powerful tools.
+            </p>
           </div>
 
           {/* Quick Links */}
           <div className='md:col-span-2'>
-            <h3 className='text-red-400 font-semibold mb-6 text-lg'>Product</h3>
+            <h3 className='text-white font-semibold mb-6 text-lg'>Product</h3>
             <ul className='space-y-4 text-zinc-400'>
               <li>
                 <a href='#' className='hover:text-white transition'>
@@ -55,11 +51,11 @@ const Footer = () => {
           </div>
 
           <div className='md:col-span-2'>
-            <h3 className='text-red-400 font-semibold mb-6 text-lg'>Company</h3>
+            <h3 className='text-white font-semibold mb-6 text-lg'>Company</h3>
             <ul className='space-y-4 text-zinc-400'>
               <li>
                 <a href='#' className='hover:text-white transition'>
-                  About Us
+                  About
                 </a>
               </li>
               <li>
@@ -74,31 +70,66 @@ const Footer = () => {
               </li>
               <li>
                 <a href='#' className='hover:text-white transition'>
-                  Contact
+                  Press
                 </a>
               </li>
             </ul>
           </div>
 
           <div className='md:col-span-3'>
-            <h3 className='text-red-400 font-semibold mb-6 text-lg'>Legal</h3>
+            <h3 className='text-white font-semibold mb-6 text-lg'>Resources</h3>
             <ul className='space-y-4 text-zinc-400'>
               <li>
                 <a href='#' className='hover:text-white transition'>
-                  Privacy Policy
+                  Documentation
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-white transition'>
-                  Terms of Service
+                  Help Center
                 </a>
               </li>
               <li>
                 <a href='#' className='hover:text-white transition'>
-                  Cookie Settings
+                  Community
+                </a>
+              </li>
+              <li>
+                <a href='#' className='hover:text-white transition'>
+                  Contact
                 </a>
               </li>
             </ul>
+          </div>
+          {/* Social Links */}
+          <div className='md:col-span-2'>
+            <div className='mt-8 flex flex-col gap-3 text-2xl'>
+              <h3 className='text-white font-semibold mb-6 text-lg'>
+                Social Links
+              </h3>
+              <div className='flex gap-4'>
+                <a
+                  href='#'
+                  className='bg-white p-3 rounded-full hover:bg-purple-500 hover:text-white transition-all duration-300 shadow-md'
+                >
+                  <RiInstagramFill className='text-lg text-[#101727] ' />
+                </a>
+
+                <a
+                  href='#'
+                  className='bg-white p-3 rounded-full  hover:bg-purple-500 hover:text-white transition-all duration-300 shadow-md'
+                >
+                  <FaFacebookSquare className='text-lg text-[#101727]' />
+                </a>
+
+                <a
+                  href='#'
+                  className='bg-white p-3 rounded-full  hover:bg-purple-500 hover:text-white transition-all duration-300 shadow-md'
+                >
+                  <FaXTwitter className='text-lg text-[#101727]' />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -107,8 +138,14 @@ const Footer = () => {
           <div>© {new Date().getFullYear()} AI Hub. All rights reserved.</div>
 
           <div className='flex gap-6'>
-            <a href='#' className='hover:text-red-400 transition'>
-              Made with ❤️ for AI enthusiasts
+            <a href='#' className='hover:text-purple-400 transition'>
+              Privacy Policy
+            </a>
+            <a href='#' className='hover:text-purple-400 transition'>
+              Terms of Service
+            </a>
+            <a href='#' className='hover:text-purple-400 transition'>
+              Cookies
             </a>
           </div>
         </div>
