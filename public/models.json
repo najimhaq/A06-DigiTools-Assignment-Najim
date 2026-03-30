@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": "2",
+    "name": "Portfolio Maker",
+    "description": "Build stunning personal portfolios without coding.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop builder", "Custom domains", "SEO optimized"],
+    "icon": "🎨"
+  },
+  {
+    "id": "3",
+    "name": "Job Tracker",
+    "description": "Track your job applications and interview progress.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Reminder alerts",
+      "Analytics dashboard"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": "4",
+    "name": "AI Cover Letter Generator",
+    "description": "Generate personalized cover letters instantly using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["AI writing", "Multiple formats", "Download PDF"],
+    "icon": "✉️"
+  },
+  {
+    "id": "5",
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile to attract recruiters.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile analysis",
+      "Keyword suggestions",
+      "Headline generator"
+    ],
+    "icon": "🔗"
+  },
+  {
+    "id": "6",
+    "name": "Interview Prep Kit",
+    "description": "Prepare for interviews with curated questions and answers.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "Common Q&A", "Expert tips"],
+    "icon": "🎤"
+  },
+  {
+    "id": "7",
+    "name": "Freelancer Toolkit",
+    "description": "Essential tools for freelancers to manage clients and projects.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Invoice generator", "Time tracking", "Client CRM"],
+    "icon": "💼"
+  },
+  {
+    "id": "8",
+    "name": "Skill Assessment Platform",
+    "description": "Test and validate your skills with real-world challenges.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Skill tests", "Certificates", "Leaderboard"],
+    "icon": "🧠"
+  },
+  {
+    "id": "9",
+    "name": "Online Course Bundle",
+    "description": "Access a library of premium courses across various fields.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["500+ courses", "Lifetime access", "Certificates"],
+    "icon": "📚"
+  },
+  {
+    "id": "10",
+    "name": "Productivity Planner",
+    "description": "Plan your daily tasks and boost productivity.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Task scheduling", "Goal tracking", "Reminders"],
+    "icon": "🗓️"
+  },
+  {
+    "id": "11",
+    "name": "Design Assets Pack",
+    "description": "Download high-quality UI kits, icons, and templates.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["UI kits", "Icons", "Figma files"],
+    "icon": "🧩"
+  },
+  {
+    "id": "12",
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage with fast access and backup.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["1TB storage", "Auto backup", "File sharing"],
+    "icon": "☁️"
+  }
+]
