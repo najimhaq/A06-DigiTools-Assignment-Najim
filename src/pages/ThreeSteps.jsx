@@ -26,7 +26,7 @@ const ThreeSteps = () => {
 
   return (
     <div className='py-20 bg-gradient-to-b from-gray-50 to-white'>
-      <div className='text-center mb-16'>
+      <div className='text-center mb-20'>
         <h1 className='font-black text-5xl md:text-6xl mb-6 tracking-tight text-gray-900'>
           Get Started in 3 Steps
         </h1>
@@ -35,7 +35,7 @@ const ThreeSteps = () => {
         </p>
       </div>
 
-      <div className='max-w-6xl mx-auto px-4'>
+      <div className='max-w-6xl mx-auto px-4 mb-20'>
         <div className='grid md:grid-cols-3 gap-8 items-center'>
           {steps.map((step, index) => (
             <div

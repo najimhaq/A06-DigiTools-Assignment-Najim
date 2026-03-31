@@ -30,7 +30,7 @@ const Models = ({ modelPromise }) => {
         {/* Top Bar */}
         <div className='flex justify-center items-center gap-6 flex-wrap'>
           {/* Search */}
-          <div className='relative w-full max-w-xs'>
+          <div className='relative w-full max-w-xs mb-10'>
             <FaSearch className='pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-sm text-zinc-400' />
             <input
               type='text'

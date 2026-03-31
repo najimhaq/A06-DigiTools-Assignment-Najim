@@ -55,10 +55,14 @@ const AppContent = () => {
       {activeTab === 'model' && <Models modelPromise={modelPromise} />}
 
       {activeTab === 'cart' && <CartDrawer />}
-      <ThreeSteps />
-      <PricingCard />
-      <Workflow />
-      <Footer />
+      {activeTab !== 'cart' && (
+        <>
+          <ThreeSteps />
+          <PricingCard />
+          <Workflow />
+          <Footer />
+        </>
+      )}
     </>
   );
 };

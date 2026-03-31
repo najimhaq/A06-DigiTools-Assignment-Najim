@@ -1,6 +1,6 @@
 export default function PlanPrice() {
   return (
-    <div className='flex flex-wrap items-center justify-center gap-6 mb-15'>
+    <div className='flex flex-wrap items-center justify-center gap-6 mb-20'>
       <div className='w-72 bg-white text-left text-gray-800/80 border border-gray-200 p-6 pb-16 rounded-lg'>
         <p className='font-semibold'>Basic</p>
         <h1 className='text-3xl font-semibold'>
