@@ -1,6 +1,7 @@
 import React from 'react';
 import { useProps } from '../../utils/CartContext';
 import { IoMdRemoveCircleOutline } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 const CartDrawer = ({ cartItems, onRemove, onCheckout }) => {
   const { carts, setCarts } = useProps();
@@ -19,6 +20,7 @@ const CartDrawer = ({ cartItems, onRemove, onCheckout }) => {
     const filteredArray = carts.filter((c) => c.id !== item.id);
     setCarts(filteredArray);
     if (onRemove) onRemove(item);
+    toast.info(`${item.name} removed from cart`);
   };
 
   return (

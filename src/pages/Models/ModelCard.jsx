@@ -1,8 +1,8 @@
-import writting from '../../assets/products/writing.png';
 import { useProps } from '../../utils/CartContext';
 import { FaCartPlus } from 'react-icons/fa';
 import { RxCheckCircled } from 'react-icons/rx';
 import { BiCut } from 'react-icons/bi';
+import { toast } from 'react-toastify';
 
 const ModelCard = ({ model }) => {
   const { carts, addToCart, removeFromCart } = useProps();
@@ -66,8 +66,10 @@ const ModelCard = ({ model }) => {
             onClick={() => {
               if (isSubscribed) {
                 removeFromCart(model.id);
+                toast.info(`${model.name} removed from cart`);
               } else {
                 addToCart(model);
+                toast.info(`${model.name} added to cart`);
               }
             }}
             className={`w-full rounded-full px-4 py-2 text-sm font-semibold bg-linear-to-r from-blue-500 to-purple-600 text-white transition-opacity hover:opacity-90 cursor-pointer ${
