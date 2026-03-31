@@ -83,4 +83,4 @@ If you have suggestions, feature requests, or bug fixes, please open an issue or
 This project is licensed under the MIT License.
 You’re free to use and modify it for both personal and commercial projects.
 
- 🕹️ Live Link : 
+ 🕹️ Live Link : https://a06-digi-tools-assignment-najim.vercel.app/
