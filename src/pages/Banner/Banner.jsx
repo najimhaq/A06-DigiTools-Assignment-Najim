@@ -8,8 +8,14 @@ const Banner = () => {
       <div className='mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-10 items-center relative z-10'>
         {/* Left Content */}
         <div className='space-y-4 text-center lg:text-left'>
-          <div className='inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 text-purple-400 text-sm sm:text-base font-medium px-4 sm:px-5 py-2 rounded-full'>
-            <SiCircle />
+          <div
+            className='inline-flex items-center gap-2 
+  bg-purple-500/10 border border-purple-500/30 
+  text-purple-400 text-sm sm:text-base font-medium 
+  px-4 sm:px-5 py-2 rounded-full 
+  transition transform hover:scale-105 hover:bg-purple-500/20'
+          >
+            <SiCircle className='animate-spin' />
             New: AI-Powered Tools Available
           </div>
 

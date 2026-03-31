@@ -13,8 +13,8 @@ const NavBar = () => {
         <div className='flex items-center px-2 sm:px-4 max-w-[200px] sm:max-w-[250px] lg:max-w-[300px]'>
           <h1
             className='truncate text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-black 
-      bg-gradient-to-r from-blue-500 to-purple-600 
-      bg-clip-text text-transparent'
+            bg-gradient-to-r from-blue-500 to-purple-600 
+            bg-clip-text text-transparent'
           >
             DigiTools
           </h1>
