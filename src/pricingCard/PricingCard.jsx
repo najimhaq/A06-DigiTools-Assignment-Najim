@@ -1,9 +1,10 @@
+import PlanPrice from "./PlanPrice";
 
 
 const PricingCard = () => {
   return (
     <>
-      <div className='text-center mb-6'>
+      <div className='text-center mb-10'>
         <h1 className='font-black text-5xl mb-4 tracking-tight text-[#101727]'>
           Simple, Transparent Pricing
         </h1>
@@ -11,6 +12,7 @@ const PricingCard = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
+      <PlanPrice/>
     </>
   );
 };

@@ -2,7 +2,7 @@ import { FiPlay } from "react-icons/fi";
 const Workflow = () => {
   return (
     <>
-      <div className='bg-linear-to-r from-indigo-600 to-purple-600 px-[200px] py-[120px]'>
+      <div className='bg-linear-to-r from-indigo-600 to-purple-600 px-[200px] py-[100px]'>
         <div className='text-center text-white'>
           <h1 className='font-bold text-4xl mb-3'>
             Ready to Transform Your Workflow?
