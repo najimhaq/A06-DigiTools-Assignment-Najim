@@ -46,11 +46,9 @@ Whether you’re building a standout resume, tracking job applications, or manag
 
 ## 🔧 Tech Stack
 
-- **Frontend:** React, Tailwind CSS  
-- **Backend:** Node.js, Express  
-- **Database:** MongoDB  
-- **AI Integration:** OpenAI API  
-- **Deployment:** Vercel / Netlify / AWS
+- **Frontend:** Vite, React, Tailwind CSS ,DaisyUI 
+- **AI Integration:** Json Data  
+- **Deployment:** Vercel 
 
 ---
 
@@ -67,7 +65,7 @@ Whether you’re building a standout resume, tracking job applications, or manag
 
 ```bash
 # Clone the repository
-git clone https://github.com/najimhaq/digitools.git
+git clone git@github.com:najimhaq/A06-DigiTools-Assignment-Najim.git
 
 # Change directory
 cd digitools
@@ -84,3 +82,5 @@ If you have suggestions, feature requests, or bug fixes, please open an issue or
 📜 License
 This project is licensed under the MIT License.
 You’re free to use and modify it for both personal and commercial projects.
+
+ 🕹️ Live Link : 
